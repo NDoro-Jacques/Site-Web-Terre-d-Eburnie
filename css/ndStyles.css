@@ -1,0 +1,181 @@
+/*************************************************************************************/
+/************************    ALL MY PERSONAL CSS STYLES    **************************/
+/***********************************************************************************/
+
+body{
+    margin: 0 150px;
+}
+
+html{
+    margin: 0;
+	padding: 0;
+	background: url("../images-2/flag-ci.jpg") no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+  	-o-background-size: cover;
+ 	background-size: cover;
+}
+
+/* HOME PAGE */
+.carousel-control {
+    background-image: none !important;
+}
+
+.chevron-left, .chevron-right{
+    margin-top: 225px;
+    font-size: 2em;
+}
+
+.hidden{
+    display: none;
+}
+
+.navbar{
+    background-color: rgba(0, 255, 149, 0.333);
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.navbar-right{
+    margin-top: 10px;
+}
+
+.link{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.follow-text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 25px;
+}
+
+.header{
+    margin-top: 100px;
+}
+
+.carousel{
+    margin-top: 100px;
+}
+
+.menu{
+    margin-top: 100px;
+}
+
+.menu-1, .menu-2, .menu-3{
+    margin-top: 150px;
+}
+
+.img-1, .img-2, .img-3{
+    box-shadow: 0 0 70px 5px #000;
+}
+
+.text-title{
+    font-family: 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 7vh;
+}
+
+.menu-1 a, .menu-2 a, .menu-3 a{
+    color: rgb(71, 69, 69);
+}
+
+.menu-1 a:hover, .menu-2 a:hover, .menu-3 a:hover{
+    color: #000;
+    transition: ease-in .5s;
+    -webkit-transition: ease-in .5s;
+    -moz-transition: ease-in .5s;
+    -ms-transition: ease-in .5s;
+    -o-transition: ease-in .5s;
+}
+
+footer{
+    position: relative;
+    margin-top: 100px;
+    bottom: 0;
+    height: 100px;
+    background-color: rgba(0, 255, 149, 0.333);
+}
+
+.footer-text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.7vh;
+    opacity: 0.7;
+}
+
+.footer-social-media{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin-left: -40px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.footer-social-media li{
+    margin: 0 15px;
+    color: #777;
+}
+
+.footer-social-media li a{
+    color: #777;
+}
+
+.footer-social-media li a:hover{
+    color: #000;
+}
+
+
+/* PRSENTATION PAGE */
+.article{
+    background: url("../images-2/elephant-drawing-2.png") no-repeat center fixed;
+    margin: 0 100px;
+}
+
+.img-illustration-1{
+    float: left;
+    clear: both;
+}
+
+.img-illustration-2{
+    float: right;
+    clear: both;
+}
+
+.header-title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 8vh;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.img-title{
+    font-family: 'Gill MT', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3vh;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 5vh;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+/* VILLES PAGE */
+.map-text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4vh;
+    margin-left: -50px;
+}
+
+.map{
+    background-repeat: no-repeat;
+}
